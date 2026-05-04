@@ -1,0 +1,47 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  background: linear-gradient(135deg, #0f766e, #6366f1, #d946ef);
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+
+  padding: 2.5rem 3rem;
+  border-radius: 18px;
+  text-align: center;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+
+  
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.clock-card h1 {
+  margin-bottom: 1rem;
+  margin-top: 0; 
+
+  padding-top: 4px; 
+
+  line-height: 1.2; 
+
+  background: linear-gradient(90deg, #0f766e, #6366f1, #d946ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 2rem;
+}
+
+.time {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1f2937;
+  letter-spacing: 0.5px;
+}
